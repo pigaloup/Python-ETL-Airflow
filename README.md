@@ -17,7 +17,8 @@ pour ce faire j'utilise Apache Airflow pour orchestrer un pipeline **ETL complet
 ---
 
 ## 🛠️ Technologies utilisées
-- **Python 3** : langage principal pour l’ETL.
+- **Python** : langage principal pour l’ETL
+- **Bash** : langage principal pour l’ETL
 - **Apache Airflow** : orchestration et automatisation des tâches.
 - **Requests** : téléchargement des données.
 - **Tarfile / CSV** : extraction et manipulation des fichiers.
@@ -125,7 +126,8 @@ Ce projet m’a permis de mettre en œuvre plusieurs compétences clés du méti
 - Le lien entre technique et métier : comprendre le besoin métier (décongestion des autoroutes) permet de mieux orienter les choix techniques.
 
 ---
-
+**Le code est également disponible en Bash** 
+---
 **Ce dépôt illustre ma capacité à concevoir des workflows robustes, automatisés et réutilisables, qualités essentielles pour un Data Engineer.**
 
 👨‍💻 Auteur
