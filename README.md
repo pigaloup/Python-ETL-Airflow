@@ -37,30 +37,30 @@ python-etl-airflow
 
 ### 1️⃣ **Download dataset**
 - **Méthode utilisée :** `requests.get()` avec gestion du flux et timeout.
-- **But :** Télécharger un fichier compressé `.tgz` depuis une source externe.
+- **Objectif :** Télécharger un fichier compressé `.tgz` depuis une source externe.
 ---
 
 ### 2️⃣ **Untar dataset**
 - **Méthode utilisée :** `tarfile.open()` pour extraire les fichiers.
-- **But :** Décompresser le jeu de données brut.
+- **Objectif  :** Décompresser le jeu de données brut.
 ---
 
 ### 3️⃣ **Extract data (CSV, TSV, Fixed-Width)**
 - **Méthodes utilisées :**
   - `csv.writer()` pour normaliser les données.
   - `split(',')`, `split('\t')` et slicing pour gérer différents formats.
-- **But :** Extraire et uniformiser les données de trois formats distincts.
+- **Objectif  :** Extraire et uniformiser les données de trois formats distincts.
 ---
 
 ### 4️⃣ **Consolidate data**
 - **Méthode utilisée :** `zip()` pour fusionner les lignes des trois fichiers.
-- **But :** Créer un fichier unique `extracted_data.csv` regroupant toutes les informations.
+- **Objectif  :** Créer un fichier unique `extracted_data.csv` regroupant toutes les informations.
  
 ---
 
 ### 5️⃣ **Transform data**
 - **Méthode utilisée :** `csv.DictReader()` et `DictWriter()` pour manipuler les colonnes.
-- **But :** Nettoyer et transformer les données (ex. mettre les types de véhicules en majuscules).
+- **Objectif  :** Nettoyer et transformer les données (ex. mettre les types de véhicules en majuscules).
 
 ---
 
