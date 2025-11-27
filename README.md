@@ -96,16 +96,35 @@ Ce DAG illustre une orchestration claire, modulaire et robuste, adaptée à des 
 
 ---
 
+💼 Compétences démontrées
 
- ### 💡 Points fort démontrés
+Ce projet m’a permis de mettre en œuvre plusieurs compétences clés du métier d’ingénieur de données :
 
-- Orchestration maîtrisée avec Airflow.
+🔁 Orchestration de workflows avec Apache Airflow : définition de tâches, gestion des dépendances, planification quotidienne.
 
-- Gestion multi-formats (CSV, TSV, Fixed-Width).
+🧩 Traitement multi-formats : extraction de données depuis des fichiers CSV, TSV et Fixed-Width, chacun issu d’un système différent.
 
-- Pipeline robuste et réutilisable grâce aux chemins relatifs et à la modularité.
+🧠 Consolidation intelligente : fusion de sources hétérogènes en un fichier unique et cohérent.
 
-- Transformation de données pour les rendre prêtes à l’analyse.
+🧹 Transformation de données : nettoyage, normalisation et mise en forme pour faciliter l’analyse.
+
+🛠️ Robustesse du code : gestion des erreurs, chemins relatifs, modularité et réutilisabilité.
+
+📦 Structuration d’un projet GitHub professionnel : documentation claire, schéma visuel, installation guidée.
+
+---
+
+💡 Leçons apprises
+
+L’importance de l’automatisation : Airflow permet de fiabiliser les processus et de réduire les interventions manuelles.
+
+La diversité des formats de données : dans un contexte réel, les données ne sont jamais homogènes — il faut savoir s’adapter.
+
+La valeur de la clarté : un code bien structuré et documenté est aussi important que sa performance.
+
+Le lien entre technique et métier : comprendre le besoin métier (décongestion des autoroutes) permet de mieux orienter les choix techniques.
+
+---
 
 **Ce dépôt illustre ma capacité à concevoir des workflows robustes, automatisés et réutilisables, qualités essentielles pour un Data Engineer.**
 
