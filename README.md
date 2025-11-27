@@ -81,6 +81,25 @@ Voici une représentation visuelle des dépendances du pipeline ETL :
 
 ![DAG Pipeline](dags/dag_pipeline.png)
 
+## 📊 Schéma du pipeline ETL – DAG Airflow
+
+Voici une représentation visuelle du pipeline ETL orchestré avec Apache Airflow :
+
+![DAG Pipeline](docs/dag_pipeline.png)
+
+### 🧭 Légende des étapes
+
+- **Download Dataset** : Télécharge le fichier compressé contenant les données de péage.
+- **Untar Dataset** : Décompresse le fichier `.tgz` pour accéder aux fichiers sources.
+- **Extract CSV / TSV / Fixed-Width** : Traite les trois formats de fichiers utilisés par les différents opérateurs de péage.
+  - `vehicle-data.csv` → données de véhicules
+  - `tollplaza-data.tsv` → données de péage
+  - `payment-data.txt` → données de paiement
+- **Consolidate Data** : Fusionne les trois sources en un fichier unique `extracted_data.csv`.
+- **Transform Data** : Nettoie et transforme les données (ex. majuscules sur les types de véhicules) pour produire `transformed_data.csv`.
+
+Ce DAG illustre une orchestration claire, modulaire et robuste, adaptée à des environnements de production.
+
 
 💡 Points forts démontrés
 
