@@ -1,16 +1,21 @@
-# 🚀 ETL Pipeline avec Apache Airflow
+# 🚦 Projet ETL avec Apache Airflow – Analyse du trafic routier
 
-Un projet **Data Engineering** qui démontre la maîtrise d’Apache Airflow pour orchestrer un pipeline **ETL complet** : téléchargement, extraction multi-formats, consolidation et transformation des données.  
-Ce dépôt illustre ma capacité à concevoir des workflows robustes, automatisés et réutilisables, qualités essentielles pour un Data Engineer.
+## 📖 Scénario
+En tant qu’**Ingénieur de données** dans une société de conseil en analytique, j’ai été chargé d’un projet stratégique visant à **décongestionner les autoroutes nationales**.  
+L’objectif est d’analyser les données de trafic routier collectées à partir de différents postes de péage.  
 
+Chaque autoroute est exploitée par un opérateur distinct, avec une configuration informatique propre et des formats de fichiers hétérogènes (CSV, TSV, Fixed-Width).  
+Ma mission : **collecter, transformer et consolider ces données dans un fichier unique**, afin de les rendre exploitables pour les équipes d’analystes et de décideurs.
+pour ce faire j'utilise Apache Airflow pour orchestrer un pipeline **ETL complet** : téléchargement, extraction multi-formats, consolidation et transformation des données.  
 ---
 
 ## 🎯 Objectifs du projet
-- **Automatiser** le traitement de données hétérogènes (CSV, TSV, Fixed-Width).
+- **Centraliser** les données provenant de multiples sources et formats.
+- **Automatiser** le pipeline de traitement de données hétérogènes (CSV, TSV, Fixed-Width) grâce à Apache Airflow.
 - **Orchestrer** les tâches avec Apache Airflow pour un pipeline fiable et maintenable.
-- **Transformer** les données pour les rendre exploitables et prêtes à l’analyse.
+- **Normaliser et transformer** les données pour les rendre exploitables et prêtes à l’analyse.
+- **Fournir un fichier consolidé** prêt pour l’analyse et la prise de décision.
 - **Montrer** mes compétences pratiques en Data Engineering à travers un projet concret.
-
 ---
 
 ## 🛠️ Technologies utilisées
@@ -82,7 +87,7 @@ Chaque tâche est définie comme un **PythonOperator** et reliée par des dépen
 
 - Transformation de données pour les rendre prêtes à l’analyse.
 
-
+**Ce dépôt illustre ma capacité à concevoir des workflows robustes, automatisés et réutilisables, qualités essentielles pour un Data Engineer.**
 
 👨‍💻 Auteur
 
