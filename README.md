@@ -26,12 +26,12 @@ Ce dépôt illustre ma capacité à concevoir des workflows robustes, automatis�
 python-etl-airflow
 
 - **dags**
-   **etl_toll_data.py**        Ton DAG Airflow (le code que tu as partagé)
--**staging**                     Dossier pour les fichiers temporaires (optionnel, peut être ignoré dans GitHub)
--**requirements.txt**            Dépendances Python
--**README.md**                   Documentation du projet
--**.gitignore**                  Fichiers à ignorer (logs, staging, etc.)
--**LICENSE**                     Licence open-source (MIT par exemple)
+   **etl_toll_data.py**       
+-**staging**                     
+-**requirements.txt**           
+-**README.md**                  
+-**.gitignore**                  
+-**LICENSE**
 
 ## 🔎 Explication étape par étape du pipeline
 
