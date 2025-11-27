@@ -129,6 +129,11 @@ Ce projet m’a permis de mettre en œuvre plusieurs compétences clés du méti
 **Le code est également disponible en Bash** 
 ---
 
+## 🎥 [Démonstration vidéo](ETL-AIRFLOW.mp4)
+
+
+
+
 **Ce dépôt illustre ma capacité à concevoir des workflows robustes, automatisés et réutilisables, qualités essentielles pour un Data Engineer.**
 
 👨‍💻 Auteur
