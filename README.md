@@ -97,7 +97,7 @@ Ce DAG illustre une orchestration claire, modulaire et robuste, adaptée à des 
 ---
 
 
-💡 Points forts démontrés
+ ### 💡 Points fort démontrés
 
 - Orchestration maîtrisée avec Airflow.
 
