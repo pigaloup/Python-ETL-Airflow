@@ -2,8 +2,8 @@
 
 ## 📖 Scénario: 
 
-En tant qu’**Ingénieur de données** dans une société de conseil en analytique, j’ai été chargé d’un projet stratégique visant à **décongestionner les autoroutes nationales**. L’objectif est d’analyser les données de trafic routier collectées à partir de différents postes de péage. Chaque autoroute est exploitée par un opérateur distinct, avec une configuration informatique propre et des formats de fichiers hétérogènes (CSV, TSV, Fixed-Width).  
-Ma mission : **collecter, transformer et consolider ces données dans un fichier unique**, afin de les rendre exploitables pour les équipes d’analystes et de décideurs.
+En tant qu’ **Ingénieur de données** dans une société de conseil en analytique, j’ai été chargé d’un projet stratégique visant à **décongestionner les autoroutes nationales**. L’objectif est d’analyser les données de trafic routier collectées à partir de différents postes de péage. Chaque autoroute est exploitée par un opérateur distinct, avec une configuration informatique propre et des formats de fichiers hétérogènes (CSV, TSV, Fixed-Width).  
+**Ma mission** : **collecter, transformer et consolider ces données dans un fichier unique**, afin de les rendre exploitables pour les équipes d’analystes et de décideurs.
 pour ce faire j'utilise Apache Airflow pour orchestrer un pipeline **ETL complet** : téléchargement, extraction multi-formats, consolidation et transformation des données.  
 
 
