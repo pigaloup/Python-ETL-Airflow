@@ -23,7 +23,7 @@ Ce dépôt illustre ma capacité à concevoir des workflows robustes, automatis�
 ---
 📂 Structure du projet
 
-python-etl-airflow/
+python-etl-airflow
 
 ─ dags
    ─ etl_toll_data.py        **Ton DAG Airflow (le code que tu as partagé)**
