@@ -116,13 +116,13 @@ Ce projet m’a permis de mettre en œuvre plusieurs compétences clés du méti
 
 💡 Leçons apprises
 
-L’importance de l’automatisation : Airflow permet de fiabiliser les processus et de réduire les interventions manuelles.
+- L’importance de l’automatisation : Airflow permet de fiabiliser les processus et de réduire les interventions manuelles.
 
-La diversité des formats de données : dans un contexte réel, les données ne sont jamais homogènes — il faut savoir s’adapter.
+- La diversité des formats de données : dans un contexte réel, les données ne sont jamais homogènes — il faut savoir s’adapter.
 
-La valeur de la clarté : un code bien structuré et documenté est aussi important que sa performance.
+- La valeur de la clarté : un code bien structuré et documenté est aussi important que sa performance.
 
-Le lien entre technique et métier : comprendre le besoin métier (décongestion des autoroutes) permet de mieux orienter les choix techniques.
+- Le lien entre technique et métier : comprendre le besoin métier (décongestion des autoroutes) permet de mieux orienter les choix techniques.
 
 ---
 
