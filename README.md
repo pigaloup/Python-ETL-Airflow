@@ -90,6 +90,6 @@ Chaque tâche est définie comme un **PythonOperator** et reliée par des dépen
 
 
 👨‍💻 Auteur
-Projet réalisé par Ton Nom 📧
-Email : ton.email@example.com 🔗
-LinkedIn : [Lien vers ton profil LinkedIn]
+
+- **Nom** : El Hadji Ablaye Galoup DIOP 📧
+- **Email** : elhadjiablayegaloupdiop@gmail.com �
