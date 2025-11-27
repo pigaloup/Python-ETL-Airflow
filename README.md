@@ -75,6 +75,13 @@ Chaque tâche est définie comme un **PythonOperator** et reliée par des dépen
 
 ---
 
+## 📊 Schéma du DAG Airflow
+
+Voici une représentation visuelle des dépendances du pipeline ETL :
+
+![DAG Pipeline](dags/dag_pipeline.png)
+
+
 💡 Points forts démontrés
 
 - Orchestration maîtrisée avec Airflow.
