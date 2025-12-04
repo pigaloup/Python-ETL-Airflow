@@ -73,15 +73,16 @@ python-etl-airflow
 
 Download → Untar → [Extract CSV, Extract TSV, Extract Fixed-Width] → Consolidate → Transform
 
-Chaque tâche est définie comme un **PythonOperator** et reliée par des dépendances claires, garantissant un pipeline **fiable et reproductible**.
+Chaque tâche est définie comme un **PythonOperator** ou **BashOperator** et reliée par des dépendances claires, garantissant un pipeline **fiable et reproductible**.
 
+![Architecture du DAG Airflow](dags/dag_pipeline.png)
 ---
 
 ## 📊 Schéma du pipeline ETL – DAG Airflow
 
 Voici une représentation visuelle du pipeline ETL orchestré avec Apache Airflow :
 
-![DAG Pipeline](dags/dag_pipeline.png)
+![Schéma du pipeline ETL – DAG Airflow](dags/2.PNG)
 
 ### 🧭 Légende des étapes
 
@@ -114,6 +115,12 @@ Ce projet m’a permis de mettre en œuvre plusieurs compétences clés du méti
 
 📦 Structuration d’un projet GitHub professionnel : documentation claire, schéma visuel, installation guidée.
 
+
+### Résultat obtenu aprés éxecution : 
+
+![Résultat obtenu aprés éxecution](dags/3.PNG)
+
+
 ---
 
 💡 Leçons apprises
@@ -127,7 +134,7 @@ Ce projet m’a permis de mettre en œuvre plusieurs compétences clés du méti
 - Le lien entre technique et métier : comprendre le besoin métier (décongestion des autoroutes) permet de mieux orienter les choix techniques.
 
 ---
-**Le code est également disponible en Bash** 
+## [Le code est également disponible en Bash](https://github.com/pigaloup/Python-ETL-Airflow/blob/main/dags/ETL_Bash%20.py)
 ---
 
 ## 🎥 [Télécharger la vidéo de démonstration](ETL-AIRFLOW.mp4)
