@@ -62,9 +62,9 @@ pour ce faire j'utilise Apache Airflow pour orchestrer un pipeline **ETL complet
 
 Download → Untar → [Extract CSV, Extract TSV, Extract Fixed-Width] → Consolidate → Transform
 
-Chaque tâche est définie comme un **PythonOperator** ou **BashOperator** et reliée par des dépendances claires, garantissant un pipeline **fiable et reproductible**.
-
 ![Architecture du DAG Airflow](dags/dag_pipeline.png)
+
+Chaque tâche est définie comme un **PythonOperator** ou **BashOperator** et reliée par des dépendances claires, garantissant un pipeline **fiable et reproductible**.
 ---
 
 ## 📊 Schéma du pipeline ETL – DAG Airflow
@@ -88,7 +88,7 @@ Ce DAG illustre une orchestration claire, modulaire et robuste, adaptée à des 
 
 ---
 
-💼 Compétences démontrées
+### 💼 Compétences démontrées
 
 Ce projet m’a permis de mettre en œuvre plusieurs compétences clés du métier d’ingénieur de données :
 
