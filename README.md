@@ -26,26 +26,15 @@ pour ce faire j'utilise Apache Airflow pour orchestrer un pipeline **ETL complet
 - **Pendulum** : gestion des dates dans Airflow.
 
 ---
-📂 Structure du projet
 
-python-etl-airflow
+## 🔎 Explication étape par étape du pipeline:
 
-- **dags**
-     - **etl_toll_data.py**   
-- **staging**                     
-- **requirements.txt**           
-- **README.md**                  
-- **.gitignore**                  
-- **LICENSE**
-
-## 🔎 Explication étape par étape du pipeline
-
-### 1️⃣ **Download dataset**
+### 1️⃣ **Download dataset**:
 - **Méthode utilisée :** `requests.get()` avec gestion du flux et timeout.
 - **Objectif :** Télécharger un fichier compressé `.tgz` depuis une source externe.
 ---
 
-### 2️⃣ **Untar dataset**
+### 2️⃣ **Untar dataset**:
 - **Méthode utilisée :** `tarfile.open()` pour extraire les fichiers.
 - **Objectif  :** Décompresser le jeu de données brut.
 ---
