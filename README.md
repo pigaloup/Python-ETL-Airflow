@@ -6,6 +6,7 @@ En tant qu’ **Ingénieur de données** dans une société de conseil en analyt
 **Ma mission** : **collecter, transformer et consolider ces données dans un fichier unique**, afin de les rendre exploitables pour les équipes d’analystes et de décideurs.
 pour ce faire j'utilise Apache Airflow pour orchestrer un pipeline **ETL complet** : téléchargement, extraction multi-formats, consolidation et transformation des données.  
 
+[🎬 Voir la démonstration](.ETL-AIRFLOW.mp4)
 
 ## 🎯 Objectifs du projet
 - **Centraliser** les données provenant de multiples sources et formats.
